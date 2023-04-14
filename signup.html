@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="nivas.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body class="bg">
+    <a href="hotel.html">home</a>
+    <form action="index.html" method="get"  class="signup">
+     <br><br>
+  <div class="color">
+     <label for="username" class="color">User name </label>
+     <input type="text" minlength="5" id="username" required class="border"><br><br>
+     <label for="date of birth" class="color">DOB </label>
+     <input type="date" min="2000-01-01" max="2010-01-01" id="date of birth" required class="border"><br><br>
+     <label for="mail"  class="color">email</label>
+     <input type="email" id="mail" required class="border"><br><br>
+     <label for="password"  class="color">Password</label>
+     <input type="password" id="password" min="6" required class="border"><br><br>
+     <label for="about" class="color"> About you</label>
+     <input min="100" placeholder="about me ..." width="30px" id="about" class="border"><br><br>
+        <input type="radio" name="gender" value="male">
+        <label for="male" class="color">Male</label><br>
+        <input  type="radio" name="gender" value="female">
+        <label for="female"  class="color">Female</label><br><br><br>
+        <label for="proof" class="color">id proof</label>
+        <select name="id" id="proof">
+            <option value="aadhar">Aadhar</option>
+            <option value="licence">Licence</option>
+            <option value="voter id">Voter id</option>
+            <option value="passbook">Pass Book</option>
+        </select>
+        <input type="file" class="border" class="color"><br><br>
+        <input type="checkbox" required >
+        <label for="confirmation"><b class="color">The above information given is true to my knowledge</b></label> <br><br>
+    
+        <button type="submit" class="border">Submit</button>
+        <button type="reset" class="border">Reset</button>
+  </div>
+    </form>
+    
+</body>
+</html>
